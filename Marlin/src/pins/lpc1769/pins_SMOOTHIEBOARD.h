@@ -70,6 +70,13 @@
 #define E0_DIR_PIN                         P2_13
 #define E0_ENABLE_PIN                      P4_29
 
+#define DIGIPOTS_I2C_SCL                   P0_1
+#define DIGIPOTS_I2C_SDA_X                 P0_0
+#define DIGIPOTS_I2C_SDA_Y                 P0_0
+#define DIGIPOTS_I2C_SDA_Z                 P0_0
+#define DIGIPOTS_I2C_SDA_E0                P0_0
+#define DIGIPOTS_I2C_SDA_E1                P0_0
+
 //
 // Temperature Sensors
 // 3.3V max when defined as an analog input
